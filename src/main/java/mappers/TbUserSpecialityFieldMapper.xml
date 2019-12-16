@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mybatis.mapper.TbUserSpecialityFieldMapper" >
+  <resultMap id="BaseResultMap" type="com.mybatis.entity.TbUserSpecialityField" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="speciality_field_code" property="specialityFieldCode" jdbcType="INTEGER" />
+    <result column="speciality_field_name" property="specialityFieldName" jdbcType="VARCHAR" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from tb_user_speciality_field
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.mybatis.entity.TbUserSpecialityField" >
+    insert into tb_user_speciality_field (id, speciality_field_code, speciality_field_name, 
+      create_date, update_date)
+    values (#{id,jdbcType=INTEGER}, #{specialityFieldCode,jdbcType=INTEGER}, #{specialityFieldName,jdbcType=VARCHAR}, 
+      #{createDate,jdbcType=TIMESTAMP}, #{updateDate,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.mybatis.entity.TbUserSpecialityField" >
+    update tb_user_speciality_field
+    set speciality_field_code = #{specialityFieldCode,jdbcType=INTEGER},
+      speciality_field_name = #{specialityFieldName,jdbcType=VARCHAR},
+      create_date = #{createDate,jdbcType=TIMESTAMP},
+      update_date = #{updateDate,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select id, speciality_field_code, speciality_field_name, create_date, update_date
+    from tb_user_speciality_field
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, speciality_field_code, speciality_field_name, create_date, update_date
+    from tb_user_speciality_field
+  </select>
+</mapper>

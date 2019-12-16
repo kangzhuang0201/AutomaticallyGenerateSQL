@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6be00fcb-b35e-43dc-b643-136a2a62db5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-consumer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-consumer/src/main/java/com/dubbo/example/consumer/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-consumer/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-consumer/src/main/resources/spring/dubbo-consumer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-interface/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-interface/src/main/java/com/dubbo/example/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-provider/src/main/java/com/dubbo/example/provider/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-provider/src/main/java/com/dubbo/example/provider/DemoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-provider/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo-provider/src/main/resources/spring/dubbo-provider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/dubbo_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo_demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_demo2/src/main/java/com/example/demo/Sumtest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_demo2/src/main/java/com/example/demo/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_demo2/src/main/resources/db/migration/V1__init_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/StartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/activiti/ActivitiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/activiti/ActivitiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/activiti/controller/ActivitiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/activiti/controller/ActivitiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/activiti/service/ActivityDemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/activiti/service/ActivityDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/activiti/service/impl/ActivityDemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/activiti/service/impl/ActivityDemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/aes/SymmetricEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/aes/SymmetricEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/error/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/error/ErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/ftl/TestFtlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/ftl/TestFtlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/kz/MemberIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/kz/MemberIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/mr/TestIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/mr/TestIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/param/GetParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/param/GetParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/redis/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/redis/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/domain/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/domain/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/ebean/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/ebean/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/ebean/MyEbeanServerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/ebean/MyEbeanServerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/ebean/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/ebean/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/ebean/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/ebean/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/error/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/error/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/runsqlscript/InitProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/runsqlscript/InitProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/runsqlscript/RunSqlScriptUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/runsqlscript/RunSqlScriptUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/util/Base64Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/util/Base64Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/util/ExcelReadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/util/ExcelReadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/util/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/util/HttpClientUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/util/HttpUrlConnectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/util/HttpUrlConnectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/util/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/util/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/util/PropertiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/util/PropertiesDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/ebean.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/ebean.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/process/leaveprocess02.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/process/leaveprocess02.bpmn20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/process/simpleprocess.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/process/simpleprocess.bpmn20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/process/test.bpmn20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/process/test.bpmn20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/activiti/viewProImg.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/templates/activiti/viewProImg.ftl" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-798738381">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="14" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="14" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbUserSpecialityFieldMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="14" column="57" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/entity/TbPayPassword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2050">
+              <caret line="103" column="54" selection-start-line="103" selection-start-column="54" selection-end-line="103" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbPayPasswordMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="14" column="49" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbPayPasswordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="44" column="37" selection-start-line="41" selection-start-column="3" selection-end-line="44" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/entity/TbRechargeRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2175">
+              <caret line="116" column="5" selection-start-line="105" selection-start-column="3" selection-end-line="116" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/entity/TbCapitalAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="19" column="28" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbCapitalAccountMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbRechargeRecordMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="14" column="52" selection-start-line="6" selection-start-column="3" selection-end-line="14" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbRechargeRecordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbCapitalAccountMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbUserSpecialityFieldMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/MyCommentGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/OverwriteXmlPlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/TestJdbcConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/mybatis-generator-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/GeneratorMybitas/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mybatis/entity/TbRechargeRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/mybatis-generator-config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:/dajie/maven/repository" />
+        <option name="userSettingsFile" value="E:/dajie/maven/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="103" />
+    <option name="y" value="199" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectId" id="1THWRhvZaaiPz1SYM5vPJ0uQosT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="generatorMybitas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyGeneratorMyBitas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generatorMybitas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyGeneratorMyBitas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generatorMybitas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyGeneratorMyBitas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generatorMybitas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyGeneratorMyBitas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573783344491" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="GeneratorMybitas.App" />
+      <module name="generatorMybitas" />
+      <option name="VM_PARAMETERS" value="-Xms1024M -Xmx2048M -XX:PermSize=128M -XX:MaxPermSize=256M" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeneratorMybitas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneratorMybitas.TestDemo" />
+      <module name="generatorMybitas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeneratorMybitas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJdbcConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneratorMybitas.TestJdbcConnection" />
+      <module name="generatorMybitas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeneratorMybitas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.TestJdbcConnection" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.TestJdbcConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6be00fcb-b35e-43dc-b643-136a2a62db5b" name="Default Changelist" comment="" />
+      <created>1556190375535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556190375535</updated>
+      <workItem from="1556190378844" duration="218000" />
+      <workItem from="1556190658393" duration="48000" />
+      <workItem from="1556243579039" duration="9253000" />
+      <workItem from="1557113341283" duration="4141000" />
+      <workItem from="1557194135722" duration="1706000" />
+      <workItem from="1557280056716" duration="599000" />
+      <workItem from="1558504312227" duration="1659000" />
+      <workItem from="1558694263063" duration="1076000" />
+      <workItem from="1560494611460" duration="6266000" />
+      <workItem from="1560737166063" duration="127000" />
+      <workItem from="1560759338573" duration="2774000" />
+      <workItem from="1561367212410" duration="2772000" />
+      <workItem from="1561434154765" duration="1625000" />
+      <workItem from="1561514589066" duration="2747000" />
+      <workItem from="1561600394145" duration="605000" />
+      <workItem from="1573117496348" duration="1346000" />
+      <workItem from="1573120651020" duration="3749000" />
+      <workItem from="1573178422262" duration="6241000" />
+      <workItem from="1573438452149" duration="4360000" />
+      <workItem from="1573523905196" duration="2187000" />
+      <workItem from="1573542657856" duration="9474000" />
+      <workItem from="1576464076797" duration="853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10327000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.3144699" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286908" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32729805" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4345404" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3295129" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Alibaba Log Console" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.3144699" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286908" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32729805" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4345404" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Alibaba Log Console" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbRegGuideMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/TestDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbUserSpecialityFieldMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="57" selection-start-line="6" selection-start-column="4" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/entity/TbPayPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2050">
+          <caret line="103" column="54" selection-start-line="103" selection-start-column="54" selection-end-line="103" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbPayPasswordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="49" selection-start-line="6" selection-start-column="2" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbPayPasswordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="44" column="37" selection-start-line="41" selection-start-column="3" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/entity/TbRechargeRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="116" column="5" selection-start-line="105" selection-start-column="3" selection-end-line="116" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/entity/TbCapitalAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="28" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbCapitalAccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mybatis/mapper/TbRechargeRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="52" selection-start-line="6" selection-start-column="3" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbRechargeRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbCapitalAccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/MyCommentGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/OverwriteXmlPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GeneratorMybitas/TestJdbcConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/mybatis-generator-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mappers/TbUserSpecialityFieldMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
